@@ -1,0 +1,33 @@
+{
+    "$schema": "../schema.json",
+    "name": "Aria2 custom",
+    "available": true,
+    "exposable": true,
+    "port": 6880,
+    "requirements": {
+      "ports": [
+        6880,
+        6888
+      ]
+    },
+    "id": "arai2_raiden_2",
+    "tipi_version": 1,
+    "version": "1.0.0",
+    "categories": [
+      "utilities"
+    ],
+    "description": "ddl",
+    "short_desc": "see above/below",
+    "author": "appeared out of thin air",
+    "source": "https://github.com/P3TERX/Aria2-Pro-Docker",
+    "form_fields": [
+      {
+        "type": "password",
+        "label": "RPC secret",
+        "max": 50,
+        "min": 3,
+        "required": true,
+        "env_variable": "RPC_SECRET"
+      }
+    ]
+  }
