@@ -1,25 +1,27 @@
 {
-    "name": "Aria2 daemon",
-    "available": true,
-    "port": 6880,
-    "exposable": true,
-    "id": "arai2_raiden",
-    "description": "Aria2 + AriaNg + Filebrowser",
-    "tipi_version": 1,
-    "version": "1.0.0",
-    "categories": ["utilities"],
-    "short_desc": "Aria2 + AriaNg + Filebrowser",
     "author": "iug",
-    "source": "jhg",
-    "website": "kj",
+    "available": true,
+    "categories": [
+        "utilities"
+    ],
+    "description": "Aria2 + AriaNg + Filebrowser",
+    "exposable": true,
     "form_fields": [
         {
-            "type": "password",
+            "env_variable": "RPC_SECRET",
             "label": "RPC secret",
             "max": 50,
             "min": 3,
             "required": true,
-            "env_variable": "RPC_SECRET"
+            "type": "password"
         }
-    ]
-  }
+    ],
+    "id": "arai2_raiden",
+    "name": "Aria2 daemon",
+    "port": 6880,
+    "short_desc": "Aria2 + AriaNg + Filebrowser",
+    "source": "jhg",
+    "tipi_version": 1,
+    "version": "1.0.0",
+    "website": "kj"
+}
