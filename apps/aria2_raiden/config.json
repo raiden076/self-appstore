@@ -9,9 +9,9 @@
     "version": "1.0.0",
     "categories": ["utilities"],
     "short_desc": "Aria2 + AriaNg + Filebrowser",
-    "author": "",
-    "source": "",
-    "website": "",
+    "author": "iug",
+    "source": "jhg",
+    "website": "kj",
     "form_fields": [
         {
             "type": "password",
