@@ -31,18 +31,3 @@ services:
       driver: json-file
       options:
         max-size: 1m
-
-# AriaNg is just a static web page, usually you only need to deploy on a single host.
-  AriaNg:
-    container_name: ariang
-    image: p3terx/ariang
-    command: --port 6880
-    # network_mode: host
-    network_mode: bridge
-    ports:
-      - ${APP_PORT}:6880
-    restart: unless-stopped
-    logging:
-      driver: json-file
-      options:
-        max-size: 1m
