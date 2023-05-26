@@ -1,0 +1,25 @@
+{
+    "name": "Aria2 daemon",
+    "available": true,
+    "port": 6880,
+    "exposable": true,
+    "id": "arai2_raiden",
+    "description": "Aria2 + AriaNg + Filebrowser",
+    "tipi_version": 1,
+    "version": "1.0.0",
+    "categories": ["utilities"],
+    "short_desc": "Aria2 + AriaNg + Filebrowser",
+    "author": "",
+    "source": "",
+    "website": "",
+    "form_fields": [
+        {
+            "type": "password",
+            "label": "RPC secret",
+            "max": 50,
+            "min": 3,
+            "required": true,
+            "env_variable": "RPC_SECRET"
+        }
+    ]
+  }
